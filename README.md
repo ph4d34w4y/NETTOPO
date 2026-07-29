@@ -1,5 +1,7 @@
 [README.md](https://github.com/user-attachments/files/30515779/README.md)
 
+NetTopo
+
 **A single-file, offline network configuration & flow analyzer for IT and OT environments.**
 
 NetTopo ingests firewall/switch/router configuration files and NetFlow traffic data, renders an interactive network topology, and runs security analysis — per-rule reachability, NAT modeling, attack-path simulation, segmentation analysis, Layer-2 modeling, configuration-drift tracking, and heuristic NERC-CIP mapping. It runs entirely in your browser as a single self-contained HTML file. Nothing is uploaded anywhere.
