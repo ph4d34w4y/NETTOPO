@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 ph4d34w4y
+Copyright (c) 2026 <COPYRIGHT HOLDER>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,16 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+This license applies to the NetTopo source code authored in this repository.
+NetTopo bundles third-party libraries that are distributed under their own
+licenses (both permissive):
+
+  - D3.js — ISC License — https://github.com/d3/d3
+  - SheetJS Community Edition (xlsx) — Apache License 2.0 — https://sheetjs.com
+
+These libraries are inlined into the distributed HTML file. Retain their
+copyright and license notices as required by their respective terms. Verify
+the exact terms in each library's own distribution.
