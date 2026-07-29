@@ -1,0 +1,8 @@
+*filter
+:INPUT ACCEPT [0:0]
+:FORWARD ACCEPT [0:0]
+-A INPUT -j ACCEPT
+-A FORWARD -p tcp --dport 23 -j ACCEPT
+-A FORWARD -p tcp --dport 21 -j ACCEPT
+-A FORWARD -p tcp --dport 445 -j ACCEPT
+COMMIT

@@ -1,0 +1,3 @@
+srcaddr,dstaddr,dstport,proto,bytes,packets
+"<img src=x onerror=window.__xss4=1>",10.66.0.5,443,TCP,999999,100
+10.66.0.7,"</span><script>window.__xss5=1</script>",80,TCP,888888,90

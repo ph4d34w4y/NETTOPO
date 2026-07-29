@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<pfsense>
+  <system><hostname>pf-edge</hostname><domain>lab.local</domain></system>
+  <interfaces>
+    <wan><if>em0</if><ipaddr>198.18.1.2</ipaddr><subnet>30</subnet><descr>Uplink</descr></wan>
+    <lan><if>em1</if><ipaddr>10.99.0.1</ipaddr><subnet>24</subnet><descr>LabLAN</descr></lan>
+  </interfaces>
+  <filter>
+    <rule><type>pass</type><interface>lan</interface><descr>Allow LAN out</descr></rule>
+    <rule><type>block</type><interface>wan</interface><descr>Default deny</descr></rule>
+  </filter>
+</pfsense>
