@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/30515779/README.md)[Upl# NetTopo
+[README.md](https://github.com/user-attachments/files/30515779/README.md)
 
 **A single-file, offline network configuration & flow analyzer for IT and OT environments.**
 
