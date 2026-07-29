@@ -1,0 +1,20 @@
+{
+  "name": "nettopo",
+  "version": "1.0.0",
+  "description": "Single-file, offline network configuration & flow analyzer for IT and OT environments.",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "inject": "node src/inject.js",
+    "check": "node tests/check-syntax.js",
+    "test:engine": "for f in tests/engine/reach-test*.js; do echo \"== $f ==\"; node \"$f\" || exit 1; done",
+    "test:browser": "for f in tests/browser/e2e.js tests/browser/e2e-sec.js tests/browser/e2e-audit.js tests/browser/e2e-route.js tests/browser/fgtest.js tests/browser/mhtest.js tests/browser/mxcip-test.js tests/browser/reachui-test.js tests/browser/reach-bind-test.js tests/browser/nat-test.js tests/browser/vend-test.js tests/browser/intent-test.js tests/browser/ot-test.js tests/browser/ot2-test.js; do echo \"== $f ==\"; ./tests/runtest.sh \"$f\" || exit 1; done",
+    "test": "npm run check && npm run test:engine && npm run test:browser",
+    "serve": "node src/serve.js"
+  },
+  "devDependencies": {
+    "acorn": "^8.11.0",
+    "puppeteer-core": "^22.0.0"
+  },
+  "author": "ph4ad34w4y"
+}
